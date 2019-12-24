@@ -1,0 +1,72 @@
+form {
+	margin: auto;
+	width: 500px;
+	margin-top: 50px;
+	// color: black;
+}
+.box {
+	width: 800px;
+	height: 800px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	position: relative;
+	display: flex;
+
+	border-radius: 20px;
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+.img {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 50px 20px 20px 50px;
+	border-radius: 50%;
+	border: 1px solid rgba(119, 119, 119, 0.274);
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+}
+.upload {
+	font-size: 13px;
+	margin-left: -200px;
+	float: left;
+	padding-top: 210px;
+}
+p {
+	color: #ff0000;
+	font-size: 15px;
+}
+table {
+	width: 20px;
+	overflow: hidden;
+	table-layout: fixed;
+}
+.box2 {
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+	position: relative;
+	display: flex;
+
+	border-radius: 20px;
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+}
+.form2 {
+	height: 10px;
+	margin-left: 100px;
+	width: 300px;
+
+	margin-top: 50px;
+	// color: black;
+}
+.form3 {
+	display: block;
+	margin-top: -7px;
+	line-height: 31.5px;
+	width: 300px;
+
+	// color: black;
+}
