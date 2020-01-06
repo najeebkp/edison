@@ -1,12 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Kulim+Park&display=swap");
 form {
 	margin: auto;
 	width: 500px;
 	margin-top: 50px;
+
 	// color: black;
 }
+
 .box {
 	width: 800px;
-	height: 800px;
+	height: 700px;
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -25,6 +29,24 @@ form {
 	border-radius: 50%;
 	border: 1px solid rgba(119, 119, 119, 0.274);
 	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.5);
+	object-fit: cover;
+}
+.loading {
+	float: left;
+	margin-left: 110px;
+	margin-top: -160px;
+}
+.loading2 {
+	float: left;
+
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 1255px;
+	z-index: 1;
+}
+.editpic {
+	margin-left: -220px;
+	margin-top: 210px;
 }
 .upload {
 	font-size: 13px;
@@ -32,17 +54,23 @@ form {
 	float: left;
 	padding-top: 210px;
 }
-p {
-	color: #ff0000;
-	font-size: 15px;
-}
+// p {
+// 	color: #ff0000;
+// 	font-size: 15px;
+// }
 table {
 	width: 20px;
 	overflow: hidden;
 	table-layout: fixed;
 }
+.table2 {
+	width: 700px;
+	// margin-left: -50px;
+	// overflow: hidden;
+	// table-layout: fixed;
+}
 .box2 {
-	width: 800px;
+	width: 1000px;
 	height: 500px;
 	margin: auto;
 	margin-top: 25px;
@@ -56,17 +84,92 @@ table {
 }
 .form2 {
 	height: 10px;
-	margin-left: 100px;
-	width: 300px;
+
+	width: 400px;
 
 	margin-top: 50px;
 	// color: black;
 }
 .form3 {
 	display: block;
-	margin-top: -7px;
-	line-height: 31.5px;
+	margin-top: -1px;
+	line-height: 25px;
 	width: 300px;
 
 	// color: black;
+}
+.form4 {
+	display: block;
+	margin-top: 70px;
+	line-height: 25px;
+	width: 300px;
+
+	// color: black;
+}
+.text-muted2 {
+	color: #ff0000;
+}
+h2 {
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Lobster Two", cursive;
+}
+p.p1 {
+	margin: auto;
+	text-align: center;
+	justify-items: center;
+	font-family: "Kulim Park", sans-serif;
+}
+.triangle-topleft {
+	width: 0;
+	height: 0;
+	padding: auto;
+	margin-right: -70px;
+	border-top: 150px solid rgb(2, 140, 255);
+	border-top-left-radius: 20px;
+	border-right: 120px solid #ffffff;
+}
+.triangle-bottomright {
+	width: 50px;
+	height: 500px;
+	background: rgb(0, 140, 255);
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.buttons {
+	margin-top: 20px;
+	float: right;
+}
+.buttons2 {
+	margin-top: -37px;
+	margin-right: 30px;
+	float: right;
+}
+.radiobuttons {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.box3 {
+	width: 400px;
+	height: 320px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	// border: px solid;
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+	position: relative;
+	display: flex;
+
+	border-radius: 20px;
+}
+.guardianlist {
+	float: left;
+	text-align: left;
+	margin-left: -175px;
+}
+li {
+	margin-left: -200px;
+}
+.down {
+	display: grid;
 }

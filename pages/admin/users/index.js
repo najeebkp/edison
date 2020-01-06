@@ -8,6 +8,7 @@ import Table from "react-bootstrap/Table";
 import "assets/styles/sass/userProfile.scss";
 function user() {
 	const { data, loading, error, refetch } = useQuery(GraphqlServices.getAllUsers());
+
 	const [deleteUserHook, { deleteData, deleteLoading, deleteError }] = useMutation(GraphqlServices.deleteUser());
 	let deleteUser = userId => {
 		deleteUserHook({ variables: { id: userId } });
@@ -44,7 +45,7 @@ function user() {
 				<tbody>
 					{data.users.map(job => {
 						let registeredAt = new Date(job.created_at);
-						console.log(registeredAt.getYear() + 1900);
+						// console.log(registeredAt.getYear() + 1900);
 						let formattedDate = `${registeredAt.getDate()}/${registeredAt.getMonth() + 1}/${registeredAt.getYear() + 1900}`;
 						return (
 							<tr>
